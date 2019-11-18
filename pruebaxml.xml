@@ -38,11 +38,15 @@ El helio es el segundo elemento más ligero y el segundo más abundante en el un
 	<ELEMENTO>
 		<IMAGEN1>[img]https://via.placeholder.com/170x170[/img]</IMAGEN1>
 		<IMAGEN2>[img]https://via.placeholder.com/170x170[/img]</IMAGEN2>
-		<NOMBRE>Helio</NOMBRE>
-		<PESOATOM>Algo</PESOATOM>
-		<GRUPOATOM>2?</GRUPOATOM>
-		<ANIO>Ni idea</ANIO>
-		<INFO>fdsfdsfdsfdfdsfdfdfdfsd</INFO>
+		<NOMBRE>Litio</NOMBRE>
+		<PESOATOM>6.94174064</PESOATOM>
+		<GRUPOATOM>1</GRUPOATOM>
+		<ANIO>1817</ANIO>
+		<INFO>El litio (en griego: λιθίον, ‘piedrecita’) es un elemento químico de símbolo Li y número atómico 3. En la tabla periódica, se encuentra en el grupo 1, entre los elementos alcalinos. En su forma pura, es un metal blando, de color blanco plata, que se oxida rápidamente en aire o agua. Su densidad es la mitad de la del agua, siendo el metal y elemento sólido más ligero.
+
+Al igual que los demás metales alcalinos es univalente y muy reactivo, aunque menos que el sodio, por lo que no se encuentra libre en la naturaleza. Acercado a una llama la torna carmesí pero, si la combustión es violenta, la llama adquiere un color blanco brillante.
+
+Se emplea especialmente en aleaciones conductoras del calor, en baterías eléctricas y, sus sales, en el tratamiento del trastorno bipolar.</INFO>
 	</ELEMENTO>
 	<ELEMENTO>
 		<IMAGEN1>[img]https://via.placeholder.com/170x170[/img]</IMAGEN1>

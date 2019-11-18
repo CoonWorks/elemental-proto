@@ -26,11 +26,11 @@ function listarInfo(i) {
 //Función para el muestreo de la información por pantalla. Se encuentra acoplada a la función de conexión y se ejecuta la primera cada vez que se debe acceder a la información antes de mostrarla.
 
 function cargarInfo(xml, i) {
-    var xmlDoc = xml.responseXML; 
-    x = xmlDoc.getElementsByTagName("ELEMENTO");
-    document.getElementById("elenombre").innerHTML =
-    "Nombre: " +
-    x[i].getElementsByTagName("NOMBRE")[0].childNodes[0].nodeValue;
+  var xmlDoc = xml.responseXML; 
+  x = xmlDoc.getElementsByTagName("ELEMENTO");
+  document.getElementById("elementogrande").backgroundImage = ""url('"+ x[i].getElementsByTagName("IMAGEN1")[0].childNodes[0].nodeValue + "')"";
+  document.getElementById("atomo").backgroundImage = ""url('"+ x[i].getElementsByTagName("IMAGEN2")[0].childNodes[0].nodeValue + "')"";
+  document.getElementById("elenombre").innerHTML = "Nombre: " + x[i].getElementsByTagName("NOMBRE")[0].childNodes[0].nodeValue;
   document.getElementById("pesoatom").innerHTML = "Peso Atomico: " + x[i].getElementsByTagName("PESOATOM")[0].childNodes[0].nodeValue;
   document.getElementById("grupoatom").innerHTML = "Grupo Atomico: " + x[i].getElementsByTagName("GRUPOATOM")[0].childNodes[0].nodeValue;
   document.getElementById("aniodesc").innerHTML = "Año de descubrimiento: " + x[i].getElementsByTagName("ANIO")[0].childNodes[0].nodeValue;

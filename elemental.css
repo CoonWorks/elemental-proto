@@ -120,7 +120,7 @@
 #elementogrande{
   height:170px;
   width:170px;
-  background-color:rgb(144,144,144);
+  background-image:url('https://via.placeholder.com/170x170');
   position:relative;
   top:5px;
   left:10px;
@@ -197,7 +197,7 @@
 #atomo{
   height:170px;
   width:170px;
-  background-color:rgb(144,144,144);
+  background-image:url('https://via.placeholder.com/170x170');
   position:relative;
   top:-165px;
   left:190px;

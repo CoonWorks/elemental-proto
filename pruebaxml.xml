@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MENDELEEV>
+	<ELEMENTO>
+		<IMAGEN1>[img]https://via.placeholder.com/170x170[/img]</IMAGEN1>
+		<IMAGEN2>[img]https://via.placeholder.com/170x170[/img]</IMAGEN2>
+		<NOMBRE>Placeholder</NOMBRE>
+		<PESOATOM>Placeholder</PESOATOM>
+		<GRUPOATOM>Placeholder</GRUPOATOM>
+		<ANIO>Placeholder</ANIO>
+		<INFO>Placeholder</INFO>
+	</ELEMENTO>
+	<ELEMENTO>
+		<IMAGEN1>[img]https://via.placeholder.com/170x170[/img]</IMAGEN1>
+		<IMAGEN2>[img]https://via.placeholder.com/170x170[/img]</IMAGEN2>
+		<NOMBRE>Hidrogeno</NOMBRE>
+		<PESOATOM>Algo</PESOATOM>
+		<GRUPOATOM>1</GRUPOATOM>
+		<ANIO>Ni idea</ANIO>
+		<INFO>fdsfdsfdsfdfdsfdfdfdfsd</INFO>
+	</ELEMENTO>
+	<ELEMENTO>
+		<IMAGEN1>[img]https://via.placeholder.com/170x170[/img]</IMAGEN1>
+		<IMAGEN2>[img]https://via.placeholder.com/170x170[/img]</IMAGEN2>
+		<NOMBRE>Helio</NOMBRE>
+		<PESOATOM>Algo</PESOATOM>
+		<GRUPOATOM>2?</GRUPOATOM>
+		<ANIO>Ni idea</ANIO>
+		<INFO>fdsfdsfdsfdfdsfdfdfdfsd</INFO>
+	</ELEMENTO>
+</MENDELEEV>

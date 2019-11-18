@@ -190,6 +190,8 @@
   padding:10px;
   box-sizing:border-box;
   line-height:100%;
+  overflow-x:hidden;
+  overflow-y:auto;
 }
 
 #atomo{

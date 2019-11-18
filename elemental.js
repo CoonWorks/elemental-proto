@@ -28,8 +28,8 @@ function listarInfo(i) {
 function cargarInfo(xml, i) {
   var xmlDoc = xml.responseXML; 
   x = xmlDoc.getElementsByTagName("ELEMENTO");
-  document.getElementById("elementogrande").innerHTML = IMAGE("ele"+[i]+"a.png");
-  document.getElementById("atomo").innerHTML = IMAGE("ele"+[i]+"b.png");
+  document.getElementById("elementogrande").style.backgroundImage = x[i].getElementsByTagName("IMAGEN1")[0].childNodes[0].nodeValue;
+  document.getElementById("atomo").style.backgroundImage = x[i].getElementsByTagName("IMAGEN2")[0].childNodes[0].nodeValue;
   document.getElementById("elenombre").innerHTML = "Nombre: " + x[i].getElementsByTagName("NOMBRE")[0].childNodes[0].nodeValue;
   document.getElementById("pesoatom").innerHTML = "Peso Atomico: " + x[i].getElementsByTagName("PESOATOM")[0].childNodes[0].nodeValue;
   document.getElementById("grupoatom").innerHTML = "Grupo Atomico: " + x[i].getElementsByTagName("GRUPOATOM")[0].childNodes[0].nodeValue;

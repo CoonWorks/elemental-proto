@@ -1,11 +1,15 @@
 /*Bloque de datos que estructura la tabla en si misma y delimita ciertos parametros de proporción. Cuando se avance lo suficiente, se buscará trabajar con porcentajes para que el tamaño se ajuste a la pantalla*/
 
+/*Estructura básica del menú*/
+
 #menu{
   height:508px;
   width:100px;
   background-color:#505050;
   overflow:hidden;
 }
+
+/*Estructura de la caja donde están los nombres de los grupos. Se busca hacer que, cuando se enfoque el puntero en uno de ellos, los correspondientes elementos cambien de color*/
 
 #cajatags{
   background-color:rgba(20,20,20,0.5);

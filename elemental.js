@@ -11,50 +11,50 @@ function cerrarCaja(){
 }
 
 function cambioMetal(){
-  document.getElementsByClassName("alcalino").style.backgroundColor = "rgb(255,0,0)";
-  document.getElementsByClassName("terreo").style.backgroundColor = "rgb(255,0,0)";
-  document.getElementsByClassName("transicion").style.backgroundColor = "rgb(255,0,0)";
-  document.getElementsByClassName("otrometal").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("alcalino").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("terreo").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("transicion").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("otrometal").style.backgroundColor = "rgb(255,0,0)";
 }
 
 function cambioAlc(){
-  document.getElementsByClassName("alcalino").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("alcalino").style.backgroundColor = "rgb(255,0,0)";
 }
 
 function cambioTer(){
-  document.getElementsByClassName("terreo").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("terreo").style.backgroundColor = "rgb(255,0,0)";
 }
 
 function cambioTran(){
-  document.getElementsByClassName("transicion").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("transicion").style.backgroundColor = "rgb(255,0,0)";
 }
 
 function cambioOmetal(){
-  document.getElementsByClassName("otrometal").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("otrometal").style.backgroundColor = "rgb(255,0,0)";
 }
 
 function cambioMetaloide(){
-  document.getElementsByClassName("metaloide").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("metaloide").style.backgroundColor = "rgb(255,0,0)";
 }
 
 function cambioNometal(){
-  document.getElementsByClassName("nometal").style.backgroundColor = "rgb(255,0,0)";
-  document.getElementsByClassName("hidrogeno").style.backgroundColor = "rgb(255,0,0)";
-  document.getElementsByClassName("halogeno").style.backgroundColor = "rgb(255,0,0)";
-  document.getElementsByClassName("noble").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("nometal").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("hidrogeno").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("halogeno").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("noble").style.backgroundColor = "rgb(255,0,0)";
 }
 
 function cambioOnometal(){
-  document.getElementsByClassName("nometal").style.backgroundColor = "rgb(255,0,0)";
-  document.getElementsByClassName("hidrogeno").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("nometal").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("hidrogeno").style.backgroundColor = "rgb(255,0,0)";
 }
 
 function cambioHalo(){
-  document.getElementsByClassName("halogeno").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("halogeno").style.backgroundColor = "rgb(255,0,0)";
 }
 
 function cambioNob(){
-  document.getElementsByClassName("noble").style.backgroundColor = "rgb(255,0,0)";
+  document.contenedor.getElementsByClassName("noble").style.backgroundColor = "rgb(255,0,0)";
 }
 
 //Función de conexión a la base de datos. Nada demasiado extraño en el sentido de que el unico problema presente es que los servidores de almacenamiento de archivos funcionan raro cuando se quiere acceder a un XML. SQL no es tenido en cuenta debido a las vulnerabilidades de JS a la hora de acceder a bases de datos. Debido a eso, me veo obligado a subir todo a un servidor de web hosting para que físicamente se encuentre todo en el mismo servidor y pueda accederse en tiempo real

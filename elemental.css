@@ -299,9 +299,11 @@
   top:-135px;
   left:10px;
   font-size:15px;
-  line-height:0%;
+  line-height:100%;
   padding:10px;
   box-sizing:border-box;
+  overflow-x:hidden;
+  overflow-y:auto;
 }
 
 #atomo{

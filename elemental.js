@@ -33,7 +33,7 @@ function cargarInfo(xml, i) {
   var xmlDoc = xml.responseXML; 
   x = xmlDoc.getElementsByTagName("ELEMENTO");
   document.getElementById("elementogrande").style.background = "url('ele"+[i]+"a.png')";
-  document.getElementById("atomo").style.background = "url('/ele"+[i]+"b.png')";
+  document.getElementById("atomo").style.background = "url('ele"+[i]+"b.png')";
   document.getElementById("elenombre").innerHTML = "Nombre: " + x[i].getElementsByTagName("NOMBRE")[0].childNodes[0].nodeValue;
   document.getElementById("pesoatom").innerHTML = "Peso Atomico: " + x[i].getElementsByTagName("PESOATOM")[0].childNodes[0].nodeValue;
   document.getElementById("grupoatom").innerHTML = "Grupo Atomico: " + x[i].getElementsByTagName("GRUPOATOM")[0].childNodes[0].nodeValue;

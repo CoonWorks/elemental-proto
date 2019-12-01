@@ -10,6 +10,10 @@ function cerrarCaja(){
   document.getElementById("tablainfo").style.left = "865px";
 }
 
+function cambioColor(){
+  document.getElementsByClassName("alcalino").style.backgroundColor = "rgb(255,0,0)";
+}
+
 //Función de conexión a la base de datos. Nada demasiado extraño en el sentido de que el unico problema presente es que los servidores de almacenamiento de archivos funcionan raro cuando se quiere acceder a un XML. SQL no es tenido en cuenta debido a las vulnerabilidades de JS a la hora de acceder a bases de datos. Debido a eso, me veo obligado a subir todo a un servidor de web hosting para que físicamente se encuentre todo en el mismo servidor y pueda accederse en tiempo real
 
 function listarInfo(i) {

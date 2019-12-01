@@ -1,7 +1,7 @@
 /*Bloque de datos que estructura la tabla en si misma y delimita ciertos parametros de proporción. Cuando se avance lo suficiente, se buscará trabajar con porcentajes para que el tamaño se ajuste a la pantalla*/
 
 #menu{
-  height:398px;
+  height:508px;
   width:100px;
   background-color:#505050;
   overflow:hidden;
@@ -111,7 +111,7 @@
   width:865px;
   overflow:hidden;
   position:relative;
-  top:-508px;
+  top:-498px;
   left:100px;
 }
 

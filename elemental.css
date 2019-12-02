@@ -27,6 +27,9 @@
   position:relative;
   left:10px;
   top:10px;
+  text-align:center;
+  color:#000000;
+  font-size:10px;
 }
 
 #tagnometales{
@@ -36,6 +39,9 @@
   position:relative;
   left:260px;
   top:-90px;
+  text-align:center;
+  color:#000000;
+  font-size:10px;
 }
 
 #tagmetaloides{
@@ -45,6 +51,9 @@
   position:relative;
   left:190px;
   top:-10px;
+  text-align:center;
+  color:#000000;
+  font-size:10px;
 }
 
 #tagalcalinos{
@@ -54,6 +63,9 @@
   position:relative;
   left:10px;
   top:-80px;
+  text-align:center;
+  color:#000000;
+  font-size:10px;
 }
 
 #tagterreos{
@@ -63,6 +75,9 @@
   position:relative;
   left:10px;
   top:-70px;
+  text-align:center;
+  color:#000000;
+  font-size:10px;
 }
 
 #tagtransicion{
@@ -72,6 +87,9 @@
   position:relative;
   left:100px;
   top:-120px;
+  text-align:center;
+  color:#000000;
+  font-size:10px;
 }
 
 #tagotrosmetales{
@@ -81,6 +99,9 @@
   position:relative;
   left:100px;
   top:-110px;
+  text-align:center;
+  color:#000000;
+  font-size:10px;
 }
 
 #tagotrosnometales{
@@ -90,6 +111,9 @@
   position:relative;
   left:260px;
   top:-160px;
+  text-align:center;
+  color:#000000;
+  font-size:10px;
 }
 
 #taghalogenos{
@@ -99,6 +123,9 @@
   position:relative;
   left:350px;
   top:-180px;
+  text-align:center;
+  color:#000000;
+  font-size:10px;
 }
 
 #tagnobles{
@@ -108,6 +135,9 @@
   position:relative;
   left:260px;
   top:-170px;
+  text-align:center;
+  color:#000000;
+  font-size:10px;
 }
 
 #contenedor{

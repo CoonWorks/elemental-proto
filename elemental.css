@@ -7,6 +7,7 @@
   width:100px;
   background-color:#505050;
   overflow:hidden;
+  cursor:default;
 }
 
 /*Estructura de la caja donde están los nombres de los grupos. Se busca hacer que, cuando se enfoque el puntero en uno de ellos, los correspondientes elementos cambien de color*/
@@ -18,6 +19,7 @@
   position:relative;
   top:-930px;
   left:218px;
+  cursor:default;
 }
 
 #tagmetales{

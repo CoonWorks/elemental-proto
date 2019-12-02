@@ -149,6 +149,7 @@ function cambioMetaloide(){
 
 function cambioNometal(){
   document.getElementById("e1").style.backgroundColor = "rgb(255,0,0)";
+  document.getElementById("e2").style.backgroundColor = "rgb(255,0,0)";
   document.getElementById("e6").style.backgroundColor = "rgb(255,0,0)";
   document.getElementById("e7").style.backgroundColor = "rgb(255,0,0)";
   document.getElementById("e8").style.backgroundColor = "rgb(255,0,0)";
